@@ -38,8 +38,11 @@ function createIndexForDictionary(d){
 //index to speed up your search.
 //Return true when you find it, and false if you do not.
 function indexSearch(needle, haystack, index){
-
-    //(your code here)
+        for (let i = 0; i < haystack.length; i++){
+            if (haystack[i] == needle){
+           return true;
+        }
+    } return false;
 
 }
 
